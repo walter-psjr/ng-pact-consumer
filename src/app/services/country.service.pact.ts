@@ -3,7 +3,7 @@ import { HttpErrorResponse, provideHttpClient } from '@angular/common/http';
 
 import { PactWrapper } from '../utils/pact-wrapper';
 import { CountryService } from './country.service';
-import { addInteractionGetUser } from './country.service.pact.interactions.spec';
+import { addInteractionGetUser } from './country.service.pact.interactions';
 import { country1 } from './country-data';
 
 describe('CountryServicePact', () => {

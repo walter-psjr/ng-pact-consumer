@@ -3,7 +3,7 @@ module.exports = {
   setupFilesAfterEnv: ['./setup-jest.ts'],
   globalSetup: 'jest-preset-angular/global-setup',
   testEnvironment: 'jsdom',
-  testMatch: ['**/*.pact.spec.ts'],
+  testMatch: ['**/*.pact.ts'],
   verbose: true,
   globals: {
     'ts-jest': {
